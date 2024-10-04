@@ -3,7 +3,15 @@
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:20-bullseye",
 	"features": {
 		"ghcr.io/devcontainers/features/github-cli:1": {}
-	}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": ["dbaeumer.vscode-eslint"]
+		}
+	},
+	"updateContentCommand": "npm install",
+	"remoteUser": "node"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

@@ -1,0 +1,4 @@
+tasks:
+  build-docs:
+    name: Build docs
+    command: npm run build
