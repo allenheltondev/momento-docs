@@ -1,4 +1,9 @@
 tasks:
   build-docs:
     name: Build docs
-    command: npm run build
+    commands: |
+      npm install
+      npm run build
+    triggeredBy:
+      - manual
+      - postEnvironmentStart
