@@ -11,7 +11,7 @@
 		}
 	},
 	"updateContentCommand": "npm install",
-	"remoteUser": "root",
+	"remoteUser": "node",
 	"forwardPorts": [ 3000 ],
 	"portsAttributes": {
 		"3000": {
