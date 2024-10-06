@@ -1,9 +1,5 @@
-tasks:
-  build:
-    name: Build docs
-    commands: |
-      npm install
-      npm run build
-    triggeredBy:
-      - manual
-      - postEnvironmentStart
+services:
+  docusaurus:
+    name: Start Docusaurus Locally
+    triggeredBy: [ 'manual', 'postDevcontainerStart']
+    commands: npm install; npm run start;
