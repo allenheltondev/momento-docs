@@ -1,5 +1,5 @@
 tasks:
-  build-docs:
+  build:
     name: Build docs
     commands: |
       npm install
