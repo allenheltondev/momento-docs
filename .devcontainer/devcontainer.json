@@ -11,7 +11,15 @@
 		}
 	},
 	"updateContentCommand": "npm install",
-	"remoteUser": "node"
+	"remoteUser": "node",
+	"forwardPorts": [ 3000 ],
+	"portsAttributes": {
+		"3000": {
+			"label": "Docs Preview",
+			"onAutoForward": "notify",
+			"protocol": "http"
+		}
+	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

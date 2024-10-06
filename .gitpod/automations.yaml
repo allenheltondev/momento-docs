@@ -5,4 +5,4 @@ services:
     commands:
       start: |
         npm install
-        npm run start
+        npm start
